@@ -4,7 +4,7 @@ public class compound_interest
     {
         // calculates continuously compounded interest Pe^(rt)
         double p = Double.parseDouble(args[0]);
-        double r = Double.parseDouble(args[1]);
+        double r = Double.parseDouble(args[1])/100;
         double t = Double.parseDouble(args[2]);
         double fv = p * Math.pow(Math.E, r * t);
 
