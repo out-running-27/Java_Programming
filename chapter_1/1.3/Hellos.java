@@ -3,13 +3,13 @@ public class Hellos {
         int n = Integer.parseInt(args[0]);
         
         for (int i = 1; i <= n; i++) {
-            if (i % 10 == 1 && (10 > i % 100 || i % 100 > 20)) {
+            if (i % 10 == 1 && (i % 100 < 10 || i % 100 > 20)) {
                 System.out.print(i + "st");
             }
-            else if (i % 10 == 2 && (10 > i % 100 || i % 100 > 20)) {
+            else if (i % 10 == 2 && (i % 100 < 10 || i % 100 > 20)) {
                 System.out.print(i + "nd");
             }
-            else if (i % 10 == 3 && (10 > i % 100 || i % 100 > 20)) {
+            else if (i % 10 == 3 && (i % 100 < 10 || i % 100 > 20)) {
                 System.out.print(i + "rd");
             }
             else
