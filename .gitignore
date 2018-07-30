@@ -24,3 +24,6 @@ hs_err_pid*
 
 #VS Code workspace files
 *.code-workspace
+
+#IntelliJ
+.idea/
