@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.StdDraw;
+
 public class Triangle {
     public static void main(String[] args) {
         double t = Math.sqrt(3.0)/2.0;
